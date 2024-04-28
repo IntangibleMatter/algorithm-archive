@@ -83,7 +83,8 @@ The algorithm is a simple way to find the *greatest common divisor* (GCD) of two
 [import:1-14, lang="powershell"](code/powershell/euclidean_algorithm.ps1)
 {% sample lang="coco" %}
 [import:1-9, lang="coconut"](code/coconut/euclidean.coco)
-
+{% sample lang="gdscript" %}
+[import:20-35, lang="gdscript"](code/gdscript/euclidian.gd)
 {% endmethod %}
 
 Here, we simply line the two numbers up every step and subtract the lower value from the higher one every timestep. Once the two values are equal, we call that value the greatest common divisor. A graph of `a` and `b` as they change every step would look something like this:
@@ -173,7 +174,8 @@ Modern implementations, though, often use the modulus operator (%) like so
 [import:16-27, lang="powershell"](code/powershell/euclidean_algorithm.ps1)
 {% sample lang="coco" %}
 [import:12-15, lang="coconut"](code/coconut/euclidean.coco)
-
+{% sample lang="gdscript" %}
+[import:9-18, lang="gdscript"](code/gdscript/euclidian.gd)
 {% endmethod %}
 
 Here, we set `b` to be the remainder of `a%b` and `a` to be whatever `b` was last timestep. Because of how the modulus operator works, this will provide the same information as the subtraction-based implementation, but when we show `a` and `b` as they change with time, we can see that it might take many fewer steps:
@@ -290,7 +292,8 @@ The code snippets were taken from this [Scratch project](https://scratch.mit.edu
 [import, lang="powershell"](code/powershell/euclidean_algorithm.ps1)
 {% sample lang="coco" %}
 [import, lang="coconut"](code/coconut/euclidean.coco)
-
+{% sample lang="gdscript" %}
+[import, lang="gdscript"](code/gdscript/euclidian.gd)
 {% endmethod %}
 
 <script>

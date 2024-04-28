@@ -63,5 +63,6 @@ This file lists everyone, who contributed to this repo and wanted to show up her
 - Henrik Abel Christensen
 - K. Shudipto Amin
 - Peanutbutter_Warrior
-- Thijs Raymakers 
+- Thijs Raymakers
 - Michael Ciccotosto-Camp
+- IntangibleMatter

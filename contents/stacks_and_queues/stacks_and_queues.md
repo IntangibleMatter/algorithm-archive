@@ -28,6 +28,8 @@ Here is a simple implementation of a stack:
 [import, lang:"rust"](code/rust/Stack.rs)
 {% sample lang="python" %}
 [import, lang:"python"](code/python/stack.py)
+{% sample lang="gdscript" %}
+[import, lang:"gdscript"](code/gdscript/stack.gd)
 {% endmethod %}
 
 Here is a simple implementation of a queue:
@@ -42,6 +44,8 @@ Here is a simple implementation of a queue:
 [import, lang:"rust" ](code/rust/Queue.rs)
 {% sample lang="python" %}
 [import, lang:"python"](code/python/queue.py)
+{% sample lang="gdscript" %}
+[import, lang:"gdscript"](code/gdscript/queue.gd)
 {% endmethod %}
 
 ## License
