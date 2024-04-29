@@ -100,6 +100,8 @@ The code snippet was taken from this [scratch project](https://scratch.mit.edu/p
 </p>
 {% sample lang="coco" %}
 [import, lang:"coconut"](code/coconut/huffman.coco)
+{% sample lang="gdscript" %}
+[import, lang:"gdscript"](code/gdscript/huffman.gd)
 {% endmethod %}
 
 <script>
